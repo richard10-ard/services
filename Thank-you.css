@@ -1,0 +1,70 @@
+/* Thank You Page Styling */
+
+body{
+    display:flex;
+    justify-content: center;
+background-image: url('Teens group picture.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+.my-image {
+    width: 15%; /* Adjust the image width to fit its container */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Rounds the corners of the image */
+    position: relative;
+    }
+
+
+
+.container h1 {
+    color: #0025cc;
+    margin-bottom: 20px;
+    font-size: 90px;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+}
+
+.container p {
+    font-size: 18px;
+    color: #303030;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.links{
+    text-align: right;
+}
+
+.links a
+{
+margin: 10px 0;
+font-size: 0.75em;
+color: #000000;
+text-decoration: rgb(0, 0, 0);
+text-align: right;
+}
+
+.links a:hover,
+.links a:nth-child(2)
+{
+    color: #3145ff;
+}
